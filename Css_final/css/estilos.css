@@ -1,0 +1,228 @@
+@media (max-width:900px){
+ img {width: 100% !important}
+ .contenido {width: 100% !important;}
+ .title {text-align: center !important; position: relative !important}
+ .menu {float: none !important}
+ .menu li{display: block !important}
+ #imagensec {flex-direction: block !important; display: block !important;}
+ footer {display: block !important; width: 100% !important;}
+ .contacto {float: inherit !important;text-align: center !important; display: block !important; flex-direction: column !important;}
+ .contacto li{display: block !important; flex-direction: column !important;}
+ .termino {float: inherit !important;text-align: center !important; display: block !important; flex-direction: column !important;}
+ .termino li{display: block !important; flex-direction: column !important;}
+ .redesociales {float: inherit !important;text-align: center !important; display: block !important; flex-direction: column !important;}
+ .redesociales li{display: block !important; flex-direction: column !important;}
+ .derechos {float: inherit !important;text-align: center !important; display: block !important; flex-direction: column !important; }
+ .derechos li{display: block !important; flex-direction: column !important;}
+ .paisajes {width: 90% !important}
+ .sec2 {width: 90% !important}
+ .sec3 {width: 90% !important}
+}
+.contenido{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+  animation: animacion 1s;
+}
+@-webkit-keyframes animacion {
+from {
+  margin-top: 150%;
+}
+to {
+  margin-top: -5%;
+
+}
+}
+body {
+  font-family: 'Dancing Script', cursive;
+  background-color: #02010a;
+  text-align: center;
+  margin-bottom: 0px;
+  border: 0%;
+}
+img{
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(2,1,10,1);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(2,1,10,1);
+  box-shadow: 2px 2px 2px 0px rgba(2,1,10,1);
+}
+header {
+  background-color: #5b7989;
+  color: white;
+  text-shadow: 1px 1px 2px #02010a;
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  display: inline-block;
+  margin: 0%;
+  border: 0%;
+}
+
+.title {
+  text-align: left;
+  position: absolute;
+}
+.menu {
+  float: right;
+}
+.menu ul{
+  list-style-type: none;
+}
+.menu li{
+  display: inline;
+  margin: 0 10px 0 0;
+  color: white;
+}
+.menu a:visited{
+  color: white !important;
+}
+#princi{
+  background-color: #82c3a6;
+  padding: 2%;
+}
+#princi img{
+  width: 50%;
+  float: center;
+}
+nav{
+  color: #82c3a6;
+  background: #82c3a6;
+  padding: 0;
+  border-top: 0;
+}
+#imagensec {
+  display: flex;
+  flex-direction: row;
+  background-color: #d5c75f;
+  padding: 10px;
+}
+.imagen2 img{
+  width: 60%;
+  border: 10px;
+  padding: 0px;
+}
+.imagen2 img:hover{
+  transform: rotate(10deg);
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(130,195,166,1);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(130,195,166,1);
+  box-shadow: 2px 2px 2px 0px rgba(130,195,166,1);
+}
+.imagen3 img{
+  width: 60%;
+  border: 0px;
+  padding: 0px;
+}
+.imagen3 img:hover{
+  transform: translate(20px,5px);
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(130,195,166,1);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(130,195,166,1);
+  box-shadow: 2px 2px 2px 0px rgba(130,195,166,1);
+}
+footer {
+  font-family: 'Dancing Script', cursive;
+  background-color: #C6d5c5;
+  text-align: center;
+  color: black;
+  text-align: left;
+  border-radius: 0px 0px 10px 10px;
+  margin-top: -18px;
+  display: inherit;
+}
+.contacto {
+  display: flex;
+  flex-direction: row;
+  background-color:#C6d5c5;
+  list-style-type: none;
+  float: left;
+  padding: 2%;
+}
+.contacto li{
+  display: flex;
+  flex-direction: row;
+  background-color:#C6d5c5;
+  list-style-type: none;
+}
+.termino {
+  display: flex;
+  flex-direction: row;
+  background-color:#C6d5c5;
+  list-style-type: none;
+  float: left;
+  padding: 2%;
+
+}
+.termino li{
+  display: flex;
+  flex-direction: row;
+  background-color:#C6d5c5;
+  list-style-type: none;
+
+}
+.redesociales {
+  display: flex;
+  flex-direction: row;
+  background-color:#C6d5c5;
+  list-style-type: none;
+  float: left;
+  padding-top: 2%;
+  padding-left: 5%
+
+}
+.redesociales li{
+  display: flex;
+  flex-direction: row;
+  background-color:#C6d5c5;
+  list-style-type: none;
+}
+.derechos {
+  display: flex;
+  flex-direction: row;
+  background-color:#C6d5c5;
+  list-style-type: none;
+  float: left;
+  padding-top: 2%;
+  padding-left: 5%
+
+}
+.derechos li{
+  display: flex;
+  flex-direction: row;
+  background-color:#C6d5c5;
+  list-style-type: none;
+}
+
+/*paisajes*/
+
+article {
+  background-color: #d5c75f;
+}
+.paisajes {
+  width: 20%;
+	flex-direction: column;
+  padding: 2%;
+	margin: 2%;
+  border: 2%;
+  display: inline-block;
+}
+.paisajes > div img{
+  width: 100%;
+}
+.sec2 {
+  width: 20%;
+	flex-direction:column;
+  padding: 2%;
+	margin: 2%;
+  float: center;
+  display: inline-block;
+}
+.sec2 > div img{
+  width: 100%
+}
+.sec3 {
+  width: 20%;
+	flex-direction:column;
+  padding: 2%;
+	margin: 2%;
+  display: inline-block;
+}
+.sec3 > div img{
+  width: 100%;
+}
